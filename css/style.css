@@ -94,6 +94,7 @@ padding-bottom: 94px;
 /*Header*/
 .header {
     background-color: var(--main-background-color);
+    border: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -144,6 +145,7 @@ color: var(--accent-text-color);
 }
 
 .list-contacts {
+display: flex;
  margin-left: 344px;
  padding-top: 32px;
  padding-bottom: 32px;
@@ -259,6 +261,11 @@ color: var(--main-text-color);
     background-color: var(--third-background-color);
  }
 
+ .team-item {
+box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+ }
+
 .team-person {
 padding-top: 30px;
 padding-bottom: 30px;
@@ -349,16 +356,25 @@ font-style: normal;
 font-weight: 500;
 font-size: 16px;
 min-width: 74px;
+padding: 6px 25px;
 line-height: calc(26 / 16);
 text-align: center;
 letter-spacing: 0.03em;
 background-color: var(--third-background-color);
 color: var(--main-title-color);
 cursor: pointer;
+border: 0;
 border-radius: 4px;
+
+}
+.list-btn .radio-btn:nth-child(-n + 4) {
+    margin-right: 8px;
 }
 
 .list-btn {
+display: flex;
+justify-content: center;
+align-content: center;
 margin-bottom: 50px;
 }
 
@@ -370,6 +386,7 @@ margin-bottom: 50px;
 .card-description {
 padding: 20px 24px;
 max-width: 370px;
+border: 1px solid #EEEEEE;
 }
 
  .portfolio-sub-title {
@@ -386,3 +403,4 @@ line-height: calc(30 / 16);
 letter-spacing: 0.03em;
 color: var(--main-text-color); 
  }
+
