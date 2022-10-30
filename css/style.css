@@ -1,0 +1,225 @@
+/*--------------------MAIN PAGE-----------------*/
+:root {
+    --main-background-color: #FFFFFF;
+    --secondary-background-color: hsl(235, 10%, 21%);
+    --third-background-color: #F5F4FA; 
+    --hero-title-color: #FFFFFF;
+    --main-title-color: #212121;
+    --main-text-color: #757575;
+    --primary-text-color: #757575;
+    --accent-text-color: #2196F3;
+    --pasive-button-color: #2196F3;
+    --active-button-color: #188CE8;
+    --button-text-color: #FFFFFF; 
+    --logo-web-text-color: #2196F3;
+    --first-studio-text-color: #000000;
+    --second-studio-text-color: #FFFFFF;
+    --adress-text-color: #FFFFFF;
+    
+/*--fonts----*/
+}
+body {
+    font-family: "Roboto", Verdana, sans-serif;
+}
+
+.list {
+list-style: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.title {
+font-size: 36px;
+line-height: calc(42 / 36);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+
+/*Header*/
+.header {
+    background-color: var(--main-background-color);
+}
+.logo {
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--logo-web-text-color);
+text-decoration: none;
+}
+
+.logo-header {
+    color:var(--first-studio-text-color);
+}
+
+.nav-link {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--main-title-color);
+}
+
+.nav-link:hover, .nav-link:focus, .header-mail:hover, .header-mail:focus, .header-tel:hover, .header-tel:focus {
+color: var(--accent-text-color);
+}
+
+.header-tel, .header-mail {
+font-weight: 500;
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+}
+
+/*--------------------Hero-----------------*/
+
+.hero {
+    background-color: var(--secondary-background-color);
+}
+.hero-title {
+font-weight: 900;
+font-size: 44px;
+line-height: calc(60 / 44);
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: var(--hero-title-color);
+}
+.hero-btn {
+font-family: inherit;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(30 / 16);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+color: var(--button-text-color);
+background-color: var(--pasive-button-color); 
+cursor: pointer;
+}
+
+.hero-btn:hover, .hero-btn:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: var(--active-button-color);
+}
+
+/*----------------Benefits--------------*/
+
+.benefits-title {
+display: none;
+}
+
+.benefits-sub-title {
+font-size: 14px;
+line-height: calc(16 / 14);
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: var(--main-title-color);
+}
+
+.benefits-description {
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: var(--main-text-color);  
+}
+
+/*------------------Activity----------------*/
+
+/*-----------------Team-------------*/
+ .team {
+    background-color: var(--third-background-color);
+ }
+
+.team-sub-title {
+font-weight: 500;
+font-size: 16px;
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-title-color);
+}
+
+.team-description {
+font-size: 16px;
+line-height: calc(19 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--main-text-color); 
+}
+/*-----------------Footer-------------*/
+.footer {
+    background-color: var(--secondary-background-color)
+}
+
+.logo-footer {
+    color: var(--second-studio-text-color); 
+}
+
+.footer-link-adress {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: var(--adress-text-color);
+}
+
+.footer-link {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: calc(24 / 14);
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+ .footer-link:hover, .footer-link:focus, .footer-link-adress:hover, .footer-link-adress:focus {
+ color: var(--accent-text-color);
+ }
+
+
+
+ /*-----PORTFOLI----*/
+
+.radio-btn {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: calc(26 / 16);
+text-align: center;
+letter-spacing: 0.03em;
+background-color: var(--third-background-color);
+color: var(--main-title-color);
+cursor: pointer;
+}
+
+.radio-btn:hover, .radio-btn:focus {
+    background-color: var(--pasive-button-color);
+    color: var(--hero-title-color)
+}
+
+ .portfolio-sub-title {
+font-size: 18px;
+line-height: calc(36 / 18);
+letter-spacing: 0.06em;
+color: var(--main-title-color);
+ }
+
+ .portfolio-description {
+font-size: 16px;
+line-height: calc(30 / 16);
+letter-spacing: 0.03em;
+color: var(--main-text-color); 
+ }
