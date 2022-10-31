@@ -94,7 +94,7 @@ padding-bottom: 94px;
 /*Header*/
 .header {
     background-color: var(--main-background-color);
-    border: 1px solid #ECECEC;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .header-container {
@@ -104,7 +104,6 @@ text-align: center;
 
 .logo {
 font-family: 'Raleway';
-font-style: normal;
 font-weight: 700;
 font-size: 26px;
 line-height: calc(31 / 26);
@@ -114,8 +113,8 @@ text-decoration: none;
 }
 
 .logo-header {
-    color:var(--first-studio-text-color);
-    margin-right: 93px;
+color:var(--first-studio-text-color);
+margin-right: 93px;
 }
 
 .nav {
@@ -129,7 +128,7 @@ margin-right: 50px;
 }
 
 .nav-list {
-    display: flex;
+display: flex;
 }
 
 .nav-link {
@@ -145,10 +144,8 @@ color: var(--accent-text-color);
 }
 
 .list-contacts {
-display: flex;
+ display: flex;
  margin-left: 344px;
- padding-top: 32px;
- padding-bottom: 32px;
 }
 
 .header-tel, .header-mail {
@@ -160,7 +157,16 @@ color: var(--primary-text-color);
 }
 
 .header-tel {
+display: flex;
+padding-top: 32px;
+padding-bottom: 32px;
 margin-left: 50px;
+}
+
+.header-mail {
+     display: flex;
+ padding-top: 32px;
+ padding-bottom: 32px;
 }
 
 /*--------------------Hero-----------------*/
@@ -218,7 +224,6 @@ padding-top: 94px;
 }
 
 .benefits-list .benefits-item:not(:last-child) {
-margin-left: 30px;
 }
 
  .benefits-list {
@@ -305,13 +310,17 @@ padding-top: 60px;
 padding-bottom: 60px;
 }
 
+.logo {
+display: block;
+margin-bottom: 20px;
+}
+
 .logo-footer {
     color: var(--second-studio-text-color); 
 }
 
 .footer-link-adress {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
@@ -321,7 +330,6 @@ color: var(--adress-text-color);
 
 .footer-link {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
@@ -345,14 +353,13 @@ color: rgba(255, 255, 255, 0.6);
 
  /*-----PORTFOLI----*/
 
- .main-portfolio {
+ .portfolio-s {
     padding-top: 94px;
     padding-bottom: 94px;
  }
 
 .radio-btn {
 font-family: 'Roboto';
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 min-width: 74px;
@@ -404,3 +411,6 @@ letter-spacing: 0.03em;
 color: var(--main-text-color); 
  }
 
+img {
+    display: block;
+}
