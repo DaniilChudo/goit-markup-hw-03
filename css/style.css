@@ -312,15 +312,28 @@ padding-bottom: 60px;
 
 .logo {
 display: block;
-margin-bottom: 20px;
 }
 
 .logo-footer {
     color: var(--second-studio-text-color); 
 }
 
+.logo-f {
+display: inline-block;
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: calc(31 / 26);
+letter-spacing: 0.03em;
+color: var(--logo-web-text-color);
+text-decoration: none;
+margin-bottom: 20px;
+}
+
+
 .footer-link-adress {
 font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
@@ -330,6 +343,7 @@ color: var(--adress-text-color);
 
 .footer-link {
 font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: calc(24 / 14);
@@ -374,7 +388,7 @@ border: 0;
 border-radius: 4px;
 
 }
-.list-btn .radio-btn:nth-child(-n + 4) {
+.list-btn .item-r-btn:nth-child(-n + 4) {
     margin-right: 8px;
 }
 
